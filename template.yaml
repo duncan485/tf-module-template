@@ -43,7 +43,7 @@ spec:
         url: ./content
         values:
           name: ${{ parameters.name }}
-          destination: ${{ parameters.repoUrl | parseRepoUrl }}
+          destination: ${{ parameters.repoUrl }}
 
     # This step publishes the contents of the working directory to GitHub.
     - id: publish
