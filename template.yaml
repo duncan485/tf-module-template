@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-template
 kind: Template
 metadata:
-  name: Terraform module tempalte
+  name: tf-mod-template
   title: Terraform module template
   description: An terraform template for the scaffolder that creates a terraform module
 spec:
